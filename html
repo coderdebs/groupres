@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>Restaraunt Form</title>
+<meta charset='utf-8'>
+<meta name='description' content='Description of document content'>
+</head>
+
+<body>
+<div id='container'>
+  <header role='banner'>
+  <h1>Aunt Melba's</h1>
+
+  <nav>
+  <div>
+    <img id="bannerimg" src='https://popmenucloud.com/wfuakqtb/1f4ea9fb-34a4-4c4d-b97c-229e10d4f260.JPG' alt='soul-food' width='500'>
+
+    <ol role='navigation'>
+      <li>
+        <a href='#menu'>Menu</a>
+      </li>
+      <li>
+        <a href='#Ready-To-Order'>Ready To Order</a>
+      </li>
+      <li>
+        <a href='#note'>Notes</a>
+      </li>
+    </ol>
+    </div>
+    <form role='search'>
+      <input type='search' placeholder='Enter search term here...'>
+      <input type='submit' value='search'>
+    </form>
+  </nav>
+</header>
+
+<main role='main'>
+  
+  <h2 id='menu'>Menu</h2>
+  <div class='content'>
+  <h3 class='menu'>Choose your dish</h3>
+  <img src=https://www.jocooks.com/wp-content/uploads/2020/05/oxtail-stew-1-17.jpg height='200'>
+  <ul>
+    <li>
+      Ox Tail Stew......... $18.50
+    </li>
+    <li>
+      Southern Baked Chicken......... 14.99
+    </li>
+    <li>
+      Fish, Shrimp n' Grits......... 19.99
+    </li>
+  </ul>
+  <h3 class='menu'>Choose your rice</h3>
+  <img src=https://www.jessicagavin.com/wp-content/uploads/2020/03/types-of-rice.jpg height='200'>
+    <ul>
+      <li>
+        Yellow Rice
+      </li>
+      <li>
+        Red Bean n' Rice
+      </li>
+      <li>
+        Dirty Rice ($1 more)
+      </li>
+      <li>
+        Plain White Rice
+      </li>
+    </ul>
+  <h3 class='menu'>Choose Your Side</h3>
+  <img src=https://www.acouplecooks.com/wp-content/uploads/2019/03/Smoked-Gouda-Mac-and-Cheese-020.jpg height='200'>
+    <ul>
+      <li>
+        Mac n' Cheese
+      </li>
+      <li>
+        Cabbage w/ Bacon
+      </li>
+      <li>
+        Cornbread
+      </li>
+    </ul>
+  <h3 class='menu'>Choose Your Drink</h3>
+  <img src=https://i.pinimg.com/736x/e2/db/b5/e2dbb53a2661924c2115b850709d65d0--tea-drinks-alcoholic-beverages.jpg height='200'>
+    <ul>
+      <li>
+        Sweetened Tea
+      </li>
+      <li>
+        Unsweetened Tea
+      </li>
+      <li>
+        Strawberry Lemonade
+      </li>
+      <li>
+        Fountain Soda
+      </li>
+      <li>
+        Arnold's Palmer ($1 more)
+      </li>
+      <li>
+        Water Cup
+      </li>
+  </ul>
+ </div> 
+  
+<!-- Add your restaurant order form below -->
+  
+  <h2 id='Ready-To-Order'>Order Form</h2>
+  <div class='content'>
+ <section>
+  <form role='order_form'>
+  <h3 class='info'>Personal Info</h3>
+    <input type='text' placeholder='Name' name='first-text-field'>
+    
+    <input type='text' placeholder= Email-Address name='second-text-field'>
+  </form>
+  
+  
+  <form>
+    <input type='text' placeholder='Address Line 1' name='third-text-field'> 
+    
+    <input type='text' placeholder='Phone Number'name='forth-text-field'>
+  </form>
+  
+  
+  <form>
+    <input type='text' placeholder='Address line 2' name=fifth-text-field>
+   </form>
+ </section>
+  
+ <section>  
+  <form>
+    <h3 class='info'>Food Order</h3>
+    
+    <label for='meat'>Dish Option</label>
+    <select id='meat' name='dish-options'>
+      <option value='Ox-Tail-Stew'>Ox Tail Stew</option>
+      <option value='Southern-Baked-Chicken'>Southern Baked Chicken</option>
+      <option value='Fish-Shrimp-n-Grits'>Fish, Shrimp, n' Grits</option>
+    </select>
+   <br>   
+    <label for='rice'>Rice Option</label>
+      <select id='rice' name='rice-option'>
+        <option value='Yellow-Rice'>Yellow Rice</option>
+        <option value='Red-Beans-n-Rice'>Red Beans n' Rice</option>
+        <option value='Dirty-Rice'>Dirty Rice</option>
+        <option value='Plain-White-Rice'>Plain White Rice</option>
+      </select>
+        
+   <br>      
+    <label for='side'>Side Option</label>
+     <select id='side' name='side-option'>
+       <option value='Mac-n-Cheese'>Mac n' Cheese</option>
+       <option value='Cabbage-w/-Bacon'>Cabbage w/ Bacon</option>
+       <option value='Cornbread'>Cornbread</option>
+     </select>
+   <br>   
+    <label for='drink'>Drink</label>
+     <select id='drink' name='drink-option'>
+       <option value='Sweet-Tea'>Sweetened tea</option>
+       <option value='Unsweet-Tea'>Unsweetened Tea</option>
+       <option value='Strawberry-Lemonade'>Strawberry  Lemonade</option>
+       <option value='Fountain-Soda'>Fountain Soda</option>
+       <option value='Arnold-Palmer'>Arnold Palmer</option>
+       <option value='Cup-Of-Water'>Cup of Water</option>
+    </select>
+   </form>
+  </section>
+    
+    
+  <section>  
+   <form>
+     <h3 class='info'>Payment Info</h3>
+     <label for='Credit Card Number'>Credit Card Number</label>
+     <input type='number' id='Credit Card Number' name=card#>
+  <br>     
+     <label for='Expiration Date'>Expiration Date</label>
+     <input type='number' name='expire-text' id='Expiration Date'>
+  <br>   
+     <label for='CVV'>Security Code</label>
+     <input type='number' name='cvv' id='CVV'>
+  </form>
+ </section>
+  
+  
+  <form>   
+    <input type='submit' value='Order' id='#'>
+    <a href='#'></a>
+  </form>
+  </div>
+   <br>
+  <footer role='contentinfo'>
+  <h3 id='note'>Notes**</h3>
+  <p>Additional sides are $2.50 extra. All meals come with condiments and seasonings that range from hot sauce to salt & pepper on the house!</p>
+    <span> Contact Us! Call <u>1-8008-MELBAS</u> </span>
+
+</footer>
+  
+</main>
+  </div>
+
+
+</body>
+</html>
