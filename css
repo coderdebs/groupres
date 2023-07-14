@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Oswald&family=Oxygen&family=Ubuntu:wght@300;400;700&display=swap');
+
+/* CSS reset to create a more consistent look across different browsers */
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.6; /* A basic line-height for readability */
+    color: #444; /* A basic text color that's not too harsh */
+  background-color: #fff5cc;
+  
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+  color: #ff6464;
+  text-align: center;
+  font-family: 'Henny Penny', cursive;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+#bannerimg{
+  width: 200px;
+}
+nav{
+  text-align: center;
+  justify-content: center;
+
+}
+a{
+  color: #A34040
+}
+a:hover{
+  color: #FF6464
+}
+ol{
+  display: inline-block;
+  text-align: left;
+}
+
+#menu{
+  background: #D0B4FF;
+  color: #321683;
+  padding: 5px;
+  border-radius: 20px
+}
+.menu{
+  color: #321683;
+}
+#Ready-To-Order{
+  background: #FFCCF7;
+  color: #AC3349;
+  padding: 5px;
+  border-radius: 20px
+}
+.info{
+    color: #AC3349;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.content{
+  margin: 20px;
+}
+
+footer{
+  background: #eee;
+  color: #777;
+  padding: 10px;
+  border-radius: 20px
+}
+
+#container{
+
+  max-width: 800px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 35px;
+  background: white;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 1px 1px 10px 5px #e6730050;
+
+}
